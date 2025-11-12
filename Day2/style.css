@@ -1,0 +1,49 @@
+h4{
+    color: red;
+}
+
+*{
+    background-color: pink
+}
+
+.a{
+    color: brown;
+}
+
+#b{
+    color: goldenrod;
+}
+/* font-family */
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 10px ;
+}
+/* box - properties */
+#hello{
+    background-color: aqua;
+    height: 200px;
+    width: 500px;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+ /* border-properties */
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 10px;
+}
+.hy{
+    height: 300px;
+    width: 150px;
+    /* background-color: aquamarine;
+    background-size: contain;
+    background-position: 10px;
+    background: linear-gradient( to right, red, blue , pink ) */
+    box-shadow: 10px 20px 200px white;
+}
