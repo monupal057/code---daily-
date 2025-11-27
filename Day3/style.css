@@ -1,0 +1,130 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    background:black;
+}
+ #box{
+    height: 300px;
+    width: 300px; */
+    linear gradient */
+    background:linear-gradient(to right, green,blue);  
+     /* background properties */
+     /* bg image  */
+    background-image: url(https://images.unsplash.com/photo-1763328744724-8140be40802c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTZ8fHxlbnwwfHx8fHw%3D);
+     background-size: cover; 
+    background-position: center; 
+  }  
+/* position properties */
+/* position absolute */
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin : 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+   
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    margin : 40px;
+}
+
+#parent{
+    height: 600px;
+    width: 600px;
+    /* background-color: aqua; */
+     position: relative; 
+     display: flex;
+     
+}
+
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    /* position: absolute; */
+    top: 40%;
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    /* position: absolute; */
+    top: 40%;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    /* position: absolute; */
+    top: 40%;
+} 
+
+#parent{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     /* justify-content: space-around; */
+     /* justify-content: space-between; */
+     /* justify-content: space-evenly; */
+     
+}
+#child4{
+    height: 200px;
+    width: 200px;
+    background-color: rosybrown;
+    top: 40%;
+}
+#child5{
+    height: 200px;
+    width: 200px;
+    background-color: saddlebrown;
+    top: 40%;
+}
+#child6{
+    height: 200px;
+    width: 200px;
+    background-color: navajowhite;
+    top: 40%;
+} 
+
+#big{
+height: 100%;
+width: 100%;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content:space-between;
+flex-wrap: nowrap;
+}
+
+#chil{
+height: 100px;
+width: 100px;
+background-color: pink;
+border: 2px solid black;
+flex-shrink: 0;
+
+}
